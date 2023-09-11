@@ -13,7 +13,7 @@ export default ({ mode }) => {
           remoteApp:
             mode === "development"
               ? "http://localhost:5001/assets/remoteEntry.js"
-              : "https://web-vite-host.vercel.app/assets/remoteEntry.js",
+              : "https://web-vite-remote.vercel.app/assets/remoteEntry.js",
         },
         shared: ["react", "react-dom", "react-router-dom"],
       }),
