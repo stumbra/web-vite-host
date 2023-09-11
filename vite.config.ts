@@ -4,8 +4,6 @@ import federation from "@originjs/vite-plugin-federation";
 
 // https://vitejs.dev/config/
 export default ({ mode }) => {
-  console.log(mode);
-
   return defineConfig({
     plugins: [
       react(),
